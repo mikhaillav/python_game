@@ -6,7 +6,7 @@ width_win = 1000
 heigth_win = 600
 
 player_width = 10
-player_height = 200
+player_height = 300
 
 player_x = 10
 player_y = heigth_win / 2 - player_height / 2
