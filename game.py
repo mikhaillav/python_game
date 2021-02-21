@@ -26,39 +26,6 @@ win = pygame.display.set_mode((width_win, heigth_win))
 
 pygame.display.set_caption("game")
 
-# class ball(pygame.sprite.Sprite):
-#     def __init__(self):
-#         pygame.sprite.Sprite.__init__(self)
-#         self.image = pygame.Surface([10,75])
-#         # self.image.fill(255,255,255)
-#         self.rect = self.image.get_rect()
-
-# class rocet(pygame.sprite.Sprite):
-#     def __init__(self):
-#         pygame.sprite.Sprite.__init__(self)
-#         self.image = pygame.Surface([10,10])
-#         # self.image.fill(255,255,255)
-#         self.rect = self.image.get_rect()
-
-# player1 = rocet()
-# playerrectx = 5
-# playerrecty = 230
-
-# player2 = rocet()
-# playerrectx = 980
-# playerrecty = 230
-
-# pong = ball()
-# ball_rectx = 505
-# ball_recty = 300
-
-# all_sprites = pygame.sprite.Group()
-# all_sprites.add(player1, player2, pong)
-
-# def redraw():
-#     all_sprites.draw(win)
-#     pygame.display.update()
-
 while True:
     
     pygame.time.delay(30)
